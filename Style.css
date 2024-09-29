@@ -1,0 +1,96 @@
+/* Styling for form */
+.form-container {
+    width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(241, 239, 247);
+}
+
+h1 {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input {
+    width: 330px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 180px;
+    padding: 10px;
+    background-color: #038621;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display:block;
+    margin: 20px auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+   
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Error message styling */
+.error-message {
+    margin: 10px 0;
+}
+label{
+    font-size:larger;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bolder;
+}
+
+input::placeholder{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    font-size: medium;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4); /* Black with opacity */
+}
+
+/* Modal Content Box */
+.modal-content {
+    background-color: #085201;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: large;
+}
+
+/* Close Button */
+.close-btn {
+    color: #838282;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
